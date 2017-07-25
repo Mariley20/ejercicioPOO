@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/main.css"> -->
+</head>
+<body>
+
+<h1>Reserve su asiento : Transporte AAA</h1>
+
+<div id="dibujarAsientos"></div>
+<br>
+
+<label>DNI: 
+	<input type="text" id="buscaDNI">
+	<button id="buscar">Buscar</button>
+</label>
+
+<!--<div id="mostrarFormReserva"></div>-->
+<div>
+	<h2>Reserva de Asiento </h2>
+	<p><label >N° Asiento: </label><br>
+	<input type='text' id='nro_asiento'  disabled ></p>
+	<p><label>Nombre: </label><br>
+	<input type='text' id='nombre' required></p>
+	<p><label>Apellidos: </label><br>
+	<input type='text' id='apellido' required></p>
+	<p><label>N° DNI: </label><br>
+	<input type='text' id='dni' required></p>
+	<button  id='reservarAsiento'>Guardar</button>
+	<button  id='cancelar'>Cancelar Reserva</button>
+</div>
+
+<p>
+	<button id="listar">listar</button>
+	<button id="limpiar">Limpiar</button>
+</p>
+
+<div id="listaPasajeros"></div>
+
+<script type="text/javascript" src="assets/js/main1.js" ></script>
+	
+</body>
+
+</html>
